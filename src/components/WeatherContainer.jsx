@@ -1,7 +1,7 @@
 import { useState } from 'react'
-import { getAPI } from '../helpers/getAPI.js'
-import { weatherIconMap } from '../helpers/weatherIcons.js'
-import { useForm } from '../hooks/useForm.jsx'
+import { getAPI } from '../helpers/getAPI'
+import { weatherIconMap } from '../helpers/weatherIcons'
+import { useForm } from '../hooks/useForm'
 
 export const WeatherContainer = () => {
   const { searchText, onInputChange, onResetForm } = useForm({

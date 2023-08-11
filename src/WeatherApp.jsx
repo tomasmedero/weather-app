@@ -1,4 +1,4 @@
-import { WeatherContainer } from './components/WeatherContainer.jsx'
+import { WeatherContainer } from './components/WeatherContainer'
 
 export const WeatherApp = () => {
   return (
