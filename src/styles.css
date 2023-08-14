@@ -16,6 +16,8 @@ body {
 }
 
 .container {
+  display: flex;
+  flex-direction: column;
   height: 400px;
   width: 105%;
   background-color: #232931;
@@ -97,6 +99,8 @@ body {
   position: relative;
   height: 100%;
   padding-top: 25px;
+  display: flex;
+  flex-direction: column;
 }
 
 .day-info {
@@ -190,4 +194,21 @@ btn-containter {
 
 .loc-button:hover {
   background: #1a237e;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    flex-direction: row; /* On tablet and larger screens, use row layout */
+  }
+
+  .left-info,
+  .right-info {
+    flex: 1; /* Equal width columns */
+  }
+}
+
+/* Additional Media Queries for Larger Screens */
+
+@media screen and (min-width: 1200px) {
+  /* Adjust styles for even larger screens if needed */
 }
