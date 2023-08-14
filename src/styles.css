@@ -198,17 +198,11 @@ btn-containter {
 
 @media screen and (min-width: 768px) {
   .container {
-    flex-direction: row; /* On tablet and larger screens, use row layout */
+    flex-direction: row;
   }
 
   .left-info,
   .right-info {
-    flex: 1; /* Equal width columns */
+    flex: 1;
   }
-}
-
-/* Additional Media Queries for Larger Screens */
-
-@media screen and (min-width: 1200px) {
-  /* Adjust styles for even larger screens if needed */
 }
